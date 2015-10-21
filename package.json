@@ -1,0 +1,35 @@
+{
+  "name": "postcss-rgba-hex",
+  "version": "0.1.0",
+  "description": "PostCSS plugin that replaces RGB(a) values with hexadecimal analogues",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "color",
+    "rgb",
+    "rgba",
+    "hex",
+    "postprocessor"
+  ],
+  "author": "stewiekillsloiss@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/XOP/postcss-rgba-hex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/XOP/postcss-rgba-hex/issues"
+  },
+  "homepage": "https://github.com/XOP/postcss-rgba-hex",
+  "dependencies": {
+    "color": "^0.10.1",
+    "postcss": "^5.0.10",
+    "rgb2hex": "^0.1.0"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "node test"
+  }
+}

@@ -1,0 +1,22 @@
+# IDE
+.idea
+*.iml
+
+# Deps
+node_modules
+bower_components
+
+# Environment
+*.DS_Store
+*.log
+/log
+
+# Assets
+_tmp
+
+# Build
+*.zip
+public
+
+# Generated JSdoc
+/jsdoc
