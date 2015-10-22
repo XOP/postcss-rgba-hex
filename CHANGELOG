@@ -1,3 +1,7 @@
+v0.2.0:
+    date: 2015-10-22
+    changes:
+      - basic transformation
 v0.1.0:
     date: 2015-10-21
     changes:

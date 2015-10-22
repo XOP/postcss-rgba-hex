@@ -1,0 +1,29 @@
+/* Test RGB(a) values
+---------------------------------------------------------------------------------- */
+
+.test-rgba-tight {
+    background: rgba(0,0,0,.8);
+    }
+
+.test-rgba-sparse {
+	background: rgba(0, 0, 0, .8);
+	}
+
+.test-rgba-tight-full {
+	background: rgba(0,0,0,0.8);
+	}
+
+.test-rgba-sparse-full {
+	background: rgba(0, 0, 0, 0.8);
+	}
+
+.test-rgba-tight-alpha {
+	background: rgba(0,0,0,1);
+	}
+
+.test-rgba-sparse-alpha {
+	background: rgba(0, 0, 0, 1);
+	}
+
+/* /Test RGB(a) values
+---------------------------------------------------------------------------------- */
