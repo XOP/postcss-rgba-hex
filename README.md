@@ -17,16 +17,21 @@ converts to
 
 ```
 .element {
-    border: 2px solid #ccc;
+    border: 2px solid #000000;
 }
 ```
 
 
 ## Installation
 
-> TODO
+```
+npm i --save-dev postcss-rgba-hex
+```
 
 
 ## Usage
 
-> TODO
+```
+postcss([ require('postcss-rgba-hex') ])
+```
+Please refer to [PostCSS documentation](https://github.com/postcss/postcss#usage) for you current environment.
