@@ -1,9 +1,12 @@
 /* Test RGB(a) values
 ---------------------------------------------------------------------------------- */
 
+/* Test rgba
+-------------------------------------------------- */
+
 .test-rgba-tight {
-    background: rgba(0,0,0,.8);
-    }
+	background: rgba(0,0,0,.8);
+	}
 
 .test-rgba-sparse {
 	background: rgba(0, 0, 0, .8);
@@ -24,6 +27,23 @@
 .test-rgba-sparse-alpha {
 	background: rgba(0, 0, 0, 1);
 	}
+
+
+/* /Test rgba */
+
+
+/* Test rgb
+-------------------------------------------------- */
+
+.test-rgb-tight {
+	background: rgb(100,100,100);
+	}
+
+.test-rgb-sparse {
+	background: rgb(100, 100, 100);
+	}
+
+/* /Test rgb */
 
 /* /Test RGB(a) values
 ---------------------------------------------------------------------------------- */

@@ -37,3 +37,22 @@ npm i --save-dev postcss-rgba-hex
 postcss([ require('postcss-rgba-hex') ])
 ```
 Please refer to [PostCSS documentation](https://github.com/postcss/postcss#usage) for you current environment.
+
+
+### Options
+
+#### `rgbOnly`
+default: `false`
+
+Process only rgb color values
+
+#### `rgbaOnly`
+default: `false`
+
+Process only rgba color values
+
+
+## [Changelog](CHANGELOG)
+
+
+## [License](LICENSE)
