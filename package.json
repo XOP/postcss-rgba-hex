@@ -27,10 +27,11 @@
     "rgb2hex": "^0.1.0"
   },
   "devDependencies": {
-    "eslint": "^1.7.3"
+    "eslint": "^1.7.3",
+    "tape": "^4.2.2"
   },
   "scripts": {
-    "test": "node test",
+    "test": "node tests",
     "lint": "eslint . --ignore-path .gitignore"
   }
 }
