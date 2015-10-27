@@ -1,6 +1,6 @@
 {
   "name": "postcss-rgba-hex",
-  "version": "0.3.0",
+  "version": "0.3.5",
   "description": "PostCSS plugin that replaces RGB(a) values with hexadecimal analogues",
   "keywords": [
     "postcss",
