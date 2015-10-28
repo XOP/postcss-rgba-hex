@@ -1,6 +1,6 @@
 # postcss-rgba-hex
 
-[![npm version](https://badge.fury.io/js/postcss-rgba-hex.svg)](https://www.npmjs.com/package/postcss-rgba-hex)
+[![npm version](https://badge.fury.io/js/postcss-rgba-hex.svg)](https://www.npmjs.com/package/postcss-rgba-hex) [![build status](https://travis-ci.org/XOP/postcss-rgba-hex.svg)](https://travis-ci.org/XOP/postcss-rgba-hex)
 
 > [PostCSS](https://github.com/postcss/postcss) plugin that replaces RGB(a) values with hexadecimal analogues
 
