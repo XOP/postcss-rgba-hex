@@ -51,15 +51,16 @@ module.exports = postcss.plugin('postcss-rgba-hex', function(options) {
             var rgbValues = val.match(reg);
 
             // converting values
-            if(rgbValues && rgbValues.length > 0){
+            if(rgbValues && rgbValues.length > 0) {
                 var newVal = val;
+
                 rgbValues.forEach(function(rgb) {
                     newVal = newVal.replace(rgb, rgbaToHex(rgb));
                     console.info('RGB(a) replaced: ' + rgb + ' -> ' + rgbaToHex(rgb));
                 });
                 decl.value = newVal;
             }
-        })
+        });
     };
 });
 
@@ -70,6 +71,7 @@ module.exports = postcss.plugin('postcss-rgba-hex', function(options) {
  */
 function rgbaToHex(rgbaString) {
     var hexString = '';
+
     hexString = rgb2hex(rgbaString).hex;
 
     return hexString;
