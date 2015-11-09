@@ -28,6 +28,7 @@
   },
   "devDependencies": {
     "eslint": "^1.7.3",
+    "eslint-config-xop": "^1.0.1",
     "tape": "^4.2.2"
   },
   "scripts": {
