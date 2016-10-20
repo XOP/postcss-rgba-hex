@@ -41,15 +41,20 @@ Please refer to [PostCSS documentation](https://github.com/postcss/postcss#usage
 
 ### Options
 
-#### `rgbOnly`
+#### `rgbOnly` [Boolean]
 default: `false`
 
 Process only rgb color values
 
-#### `rgbaOnly`
+#### `rgbaOnly` [Boolean]
 default: `false`
 
 Process only rgba color values
+
+#### `silent` [Boolean]
+default: `false`
+
+Omit verbose conversion logging
 
 
 ## [Changelog](CHANGELOG)

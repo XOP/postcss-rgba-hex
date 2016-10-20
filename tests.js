@@ -189,3 +189,24 @@ test('rgba-hex rgbaOnly:true rgbOnly:true', function(t) {
 
     t.end();
 });
+
+/**
+ * Silent mode
+ */
+test('rgba-hex silent:true', function(t) {
+
+    t.comment('expected empty log');
+    postcss([ rgbaToHex({
+        silent: true
+    }) ])
+        .process('.test-rgba-tight { background: rgba(0,0,0,.8); }')
+        .then(function(result) {
+            t.equal(
+                result.css,
+                '.test-rgba-tight { background: #000000; }',
+                'should convert rgba(C,C,C,A) to HEX without alpha and output no log'
+            );
+        });
+
+    t.end();
+});
